@@ -99,9 +99,9 @@ Tab:Paragraph({
     Desc = "Paragraph Desc" -- Put u Desc
 })
 ```
+<img width="719" height="151" alt="1000053765" src="https://github.com/user-attachments/assets/441d777b-e995-4056-bd8d-4a29d14e74b2" />
 
 **Insert Image:**
--# Only 1:1 for now
 ```Luau
 Tab:Image({
     Image = "rbxassetid://103493475647848", -- Put u Raw image or roblox id
@@ -109,6 +109,7 @@ Tab:Image({
     Radius = 9
 })
 ```
+![1000053748](https://github.com/user-attachments/assets/d9c0d39f-2c95-4023-867a-6d591b9a5470)
 
 **Create Notify:**
 ```Luau
@@ -118,6 +119,9 @@ Window:Notify({
     Time = 5 -- Put the duration
 })
 ```
+<img width="631" height="244" alt="1000053767" src="https://github.com/user-attachments/assets/932ea7a8-1e81-4a16-b7dc-2a4a85ba1b8b" />
+
+
 
 - [Example](https://raw.githubusercontent.com/MIYKOHUBOFFICIAL/Alien-Library/refs/heads/Abandoned/Things/Example.luau)
 - [Source](https://raw.githubusercontent.com/MIYKOHUBOFFICIAL/Alien-Library/refs/heads/Abandoned/Things/Importante/Source.luau)
