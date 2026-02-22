@@ -1,2 +1,116 @@
-# Alien-Library
-Idk
+# _Alien Library_
+Custom Library Made by ARS (The Source) & MIYKO (Animations, Ideas and Custom Themes).
+# Important
+This library only has a few things at the moment, so I'll leave you the documentation so you can see it for yourself.
+# Documentation
+**Load The library:**
+```Luau
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MIYKOHUBOFFICIAL/Alien-Library/refs/heads/Abandoned/Things/Importante/Source.luau"))()
+```
+**Create a window:**
+```Luau
+local Window = Library:CreateWindow({
+    Title = "My Hub", -- Set Any Name
+    Size = UDim2.fromOffset(580, 460),
+    SideBarWidth = 170,
+    BackgroundImageTransparency = 0.5,
+    SelectBackground = "Meguna", -- Choose The Custom Theme
+    ToggleName = "Open" -- Set Toggle Name
+})
+```
+
+**Custom Themes:**
+Meguna:
+```Luau
+    SelectBackground = "Meguna",
+```
+
+Astolfo:
+```Luau
+    SelectBackground = "Astolfo",
+```
+
+**Create Tab:**
+```Luau
+local Tab = Window:Tab({
+    Title = "Tab" -- Put u title
+})
+
+-- Or Locked Tab
+
+Window:LockedTab({
+    Title = "Locked tab", -- Put u title
+    NotifyTitle = "Title", -- Put u title
+    NotifyDesc = "Desc" -- Put u Desc
+})
+```
+
+**Create Button:**
+```Luau
+Tab:Button({
+    Title = "Button", -- Put u title
+    Callback = function()
+        Print("Hello")
+    end
+})
+```
+
+**Create Toggle:**
+```Luau
+Tab:Toggle({
+    Title = "Toggle", -- Put u title
+    Default = false,
+    Callback = function(state)
+        print("State:", state)
+    end
+})
+```
+
+
+**Create Slider:**
+```Luau
+Tab:Slider({
+    Title = "Slider", -- Put u title
+    Min = 0,
+    Max = 100,
+    Default = 49,
+    Callback = function(value)
+        print("Number:", value)
+    end
+})
+```
+
+**Create Section:**
+```Luau
+Tab:Section({ Title = "Section" }) -- Put u title
+```
+
+**Create Paragraph:**
+```Luau
+Tab:Paragraph({
+    Title = "Paragraph title", -- Put u Title
+    Desc = "Paragraph Desc" -- Put u Desc
+})
+```
+
+**Insert Image:**
+-# Only 1:1 for now
+```Luau
+Tab:Image({
+    Image = "rbxassetid://103493475647848", -- Put u Raw image or roblox id
+    AspectRatio = true,
+    Radius = 9
+})
+```
+
+**Create Notify:**
+```Luau
+Window:Notify({
+    Title = "Notify", -- Put u Title
+    Desc = "Yep", -- Put u Desc
+    Time = 5 -- Put the duration
+})
+```
+
+- [Example](https://raw.githubusercontent.com/MIYKOHUBOFFICIAL/Alien-Library/refs/heads/Abandoned/Things/Example.luau)
+- [Source](https://raw.githubusercontent.com/MIYKOHUBOFFICIAL/Alien-Library/refs/heads/Abandoned/Things/Importante/Source.luau)
