@@ -20,15 +20,18 @@ local Window = Library:CreateWindow({
 ```
 
 **Custom Themes:**
+
 Meguna:
 ```Luau
     SelectBackground = "Meguna",
 ```
+![1000053754](https://github.com/user-attachments/assets/0e28063e-b79c-48d2-8494-f5fe10dbbc02)
 
 Astolfo:
 ```Luau
     SelectBackground = "Astolfo",
 ```
+![1000053758](https://github.com/user-attachments/assets/2e964eb0-f21a-4eb1-b727-fe83c673fa00)
 
 **Create Tab:**
 ```Luau
@@ -44,6 +47,7 @@ Window:LockedTab({
     NotifyDesc = "Desc" -- Put u Desc
 })
 ```
+![1000053780](https://github.com/user-attachments/assets/ff09c6fb-7cf9-43ad-b075-7b6835cfbdaa)
 
 **Create Button:**
 ```Luau
@@ -54,6 +58,7 @@ Tab:Button({
     end
 })
 ```
+<img width="761" height="240" alt="1000053766" src="https://github.com/user-attachments/assets/d5238b21-7ebf-4a6a-88ad-3a2faa7467bb" />
 
 **Create Toggle:**
 ```Luau
@@ -65,7 +70,7 @@ Tab:Toggle({
     end
 })
 ```
-
+<img width="732" height="154" alt="1000053763" src="https://github.com/user-attachments/assets/3921d380-882e-442d-9552-fe12ecba273f" />
 
 **Create Slider:**
 ```Luau
@@ -79,11 +84,13 @@ Tab:Slider({
     end
 })
 ```
+<img width="752" height="158" alt="1000053764" src="https://github.com/user-attachments/assets/e37e8962-b708-4798-a17a-9333e469fd7b" />
 
 **Create Section:**
 ```Luau
 Tab:Section({ Title = "Section" }) -- Put u title
 ```
+![1000053749](https://github.com/user-attachments/assets/19fd9e46-2ec1-479b-9a47-4d695060063e)
 
 **Create Paragraph:**
 ```Luau
