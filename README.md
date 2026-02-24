@@ -5,7 +5,7 @@ This library only has a few things at the moment, so I'll leave you the document
 # Documentation
 **Load The library:**
 ```Luau
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MIYKOHUBOFFICIAL/Alien-Library/refs/heads/Abandoned/Things/Importante/Source.luau"))()
+local Library = loadstring(game:HttpGet("https://arch.rest/files/e9da91cdc38db8ea153257b7f6917074"))()
 ```
 **Create a window:**
 ```Luau
