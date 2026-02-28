@@ -20,15 +20,18 @@ local Window = Library:CreateWindow({
 ```
 
 **Custom Themes:**
-
-Meguna:
 ```Luau
-    SelectBackground = "Meguna",
-```
-
-Astolfo:
-```Luau
-    SelectBackground = "Astolfo",
+SelectBackground = "SukunaVSMahoraga",
+SelectBackground = "Astolfo",
+SelectBackground = "Sukuna",
+SelectBackground = "Sukuna MS",
+SelectBackground = "Itadori",
+SelectBackground = "reze",
+SelectBackground = "Gojo M",
+SelectBackground = "Mahoraga",
+SelectBackground = "Miku",
+SelectBackground = "teto",
+SelectBackground = "Minecraft",
 ```
 
 **Create Tab:**
@@ -111,6 +114,23 @@ Window:Notify({
 })
 ```
 
+**Create Textbox:**
+```Luau
+MainTab:Insert({
+    Title = "This is a textbox",
+    Placeholder = "Input text...",
+    Callback = function(text) end
+})
+```
+
+**Create Dropdown:**
+```Luau
+MainTab:Pick({
+    Title = "This is a dropdown",
+    Options = {"Option 1", "Option 2"},
+    Callback = function(option) end
+})
+```
 
 
 - [Example](https://raw.githubusercontent.com/MIYKOHUBOFFICIAL/Alien-Library/refs/heads/Abandoned/Things/Example.luau)
